@@ -1,7 +1,23 @@
-.full-width {
-  width: 100%;
+.bsa-blue {
+  background-color: #003366;
 }
 
-.chat {
-  width: 100%;
+.oa-red {
+  background-color: #E31837;
+}
+
+.oa-gray {
+  background-color: #36454F;
+}
+
+.oa-blue {
+  background-color: #005596;
+}
+
+.oa-lightgray {
+  background-color: #F1F1F1;
+}
+
+.oa-silver {
+  background-color: #E6E7E8;
 }
