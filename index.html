@@ -11,7 +11,7 @@
     <title>Wauna La-Mon'tay Shows</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark oa-red">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark oa-red" id="navbar">
       <a class="navbar-brand" href="#"><img src="./images/wauna_logo.svg" width="30" height="30" class="d-inline-block align-top" alt="">Wauna La-Mon'tay</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -19,24 +19,84 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Shows <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#shows">Shows <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#schedule">Schedule</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#socials">Socials</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://cpcbsa.org/programs/order-of-the-arrow/wauna-la-montay-lodge/">Wauna Online</a>
           </li>
       </div>
     </nav>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-8 col-sm-12 full-width embed-responsive embed-responsive-16by9">
-          <iframe src="https://vimeo.com/event/688898/embed/07c55e4e74" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;"></iframe>
+    <div class"content" data-spy="scroll" data-target="#navbar" data-offset="0">
+      <div class="container-fluid" id="shows">
+        <div class="row">
+          <div class="col-lg-8 col-sm-12 embed-responsive embed-responsive-16by9">
+            <iframe src="https://vimeo.com/event/688898/embed/07c55e4e74" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;"></iframe>
+          </div>
+  <!--              <div class="col-12" style="height:60vh; background-color:azure;"></div> -->
+          <div class"col-lg-4 col-sm-12 embed-responsive" style="flex-grow: 1; min-height: 400px;">
+              <iframe src="https://vimeo.com/event/688898/chat/07c55e4e74" width="100%" height="100%" frameborder="0"></iframe>
+          </div>
         </div>
-<!--              <div class="col-12" style="height:60vh; background-color:azure;"></div> -->
-        <div class"col-lg-4 col-sm-12 full-width embed-responsive" style="flex-grow: 1; min-height: 400px;">
-            <iframe src="https://vimeo.com/event/688898/chat/07c55e4e74" width="100%" height="100%" frameborder="0"></iframe>
+      </div>
+
+      <div class="container-fluid pt-2 pb-2 oa-silver">
+        <h1>Rendezvous 2021</h1>
+      </div>
+
+      <div class="container-fluid mt-2" id="schedule">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 info-card">
+            <h3>Schedule</h3>
+            <p>text goes here</p>
+          </div>
         </div>
       </div>
     </div>
+
+      <div class="container-fluid mt-2" id="socials">
+        <div class="row">
+          <div class="col-lg-4 col-sm-12 info-card">
+            <h3>Header</h3>
+            <p>text goes here</p>
+          </div>
+          <div class="col-lg-4 col-sm-12 info-card">
+            <h3>Header</h3>
+            <p>text goes here</p>
+          </div>
+          <div class="col-lg-4 col-sm-12 info-card">
+            <h3>Header</h3>
+            <p>text goes here</p>
+          </div>
+          <div class="col-lg-4 col-sm-12 info-card">
+            <h3>Header</h3>
+            <p>text goes here</p>
+          </div>
+          <div class="col-lg-4 col-sm-12 info-card">
+            <h3>Header</h3>
+            <p>text goes here</p>
+          </div>
+          <div class="col-lg-4 col-sm-12 info-card">
+            <h3>Header</h3>
+            <p>text goes here</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-dark footer">
+      <a class="navbar-brand" href="#">Footer</a>
+    </nav>
+    <nav class="navbar navbar-dark footer-bottom">
+      <p>COPYRIGHT © 2021 <a href="https://cpcbsa.org/programs/order-of-the-arrow/wauna-la-montay-lodge/">WAUNA LA-MON'TAY LODGE</a> | <a href="https://oa-bsa.org/">ORDER OF THE ARROW</a> | <a href="https://www.scouting.org/">BOY SCOUTS OF AMERICA</a> • ALL RIGHTS RESERVED</p>
+    </nav>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

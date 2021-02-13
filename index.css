@@ -1,3 +1,7 @@
+body {
+  position: relative;
+}
+
 .bsa-blue {
   background-color: #003366;
 }
@@ -20,4 +24,49 @@
 
 .oa-silver {
   background-color: #E6E7E8;
+}
+
+#shows {
+  margin-top: 56px;
+}
+
+#socials {
+  flex-flow: row wrap;
+}
+
+.info-card {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: fit-content;
+  background-color: #F1F1F1;
+  border-radius: 1em;
+  border-width: 0px;
+  border-style: hidden;
+  margin: 2.5px;
+}
+
+.footer {
+  margin-top: 1em;
+  background-color: #36454F;
+  background-image: url(./images/bsa_action_folio.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  aspect-ratio: 7;
+}
+
+.footer-bottom {
+  background-color: #20292F;
+  justify-content: center;
+}
+
+.footer-bottom p {
+  color: #36454F;
+}
+
+.footer-bottom a {
+  color: #36454F;
+}
+
+.footer-bottom a:hover {
+  color: #E6E7E8;
 }
