@@ -1,5 +1,6 @@
 body {
   position: relative;
+  background-color: #36454F;
 }
 
 .bsa-blue {
@@ -30,19 +31,30 @@ body {
   margin-top: 56px;
 }
 
+.inset {
+  margin: 0 auto 0;
+  width: calc(100% - 2em);
+}
+
 #socials {
   flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto 0;
 }
 
 .info-card {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: fit-content;
-  background-color: #F1F1F1;
-  border-radius: 1em;
-  border-width: 0px;
-  border-style: hidden;
-  margin: 2.5px;
+  margin: 1em;
+}
+
+.social-card {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: fit-content;
+  margin: 1em;
+
 }
 
 .footer {
