@@ -31,9 +31,14 @@ body {
   margin-top: 56px;
 }
 
-.inset {
+.inset-2 {
   margin: 0 auto 0;
   width: calc(100% - 2em);
+}
+
+.inset-1 {
+  margin: 0 auto 0;
+  width: calc(100% - 1em);
 }
 
 #socials {
@@ -42,19 +47,43 @@ body {
   margin: 0 auto 0;
 }
 
+.page-title {
+  border-radius: .5em;
+  padding: 1rem .5rem .5rem;
+
+}
+
+.show-card {
+  padding: 1em .5em 0;
+  display: flex;
+}
+
+.show-card>div {
+  border-radius: .5em;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
 .info-card {
+  padding: 1em .5em 0;
+  display: flex;
+}
+
+.info-card>div {
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: fit-content;
-  margin: 1em;
+  flex-basis: auto;
 }
 
 .social-card {
+  padding: 1em .5em 0;
+  display: flex;
+}
+
+.social-card>div {
   flex-grow: 1;
   flex-shrink: 1;
-  flex-basis: fit-content;
-  margin: 1em;
-
+  flex-basis: auto;
 }
 
 .footer {
