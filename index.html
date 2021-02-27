@@ -16,6 +16,11 @@
     <meta name="msapplication-config" content="./images/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
 
+    <!-- FontAwesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/fontawesome.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/brands.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/solid.min.css" rel="stylesheet">
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -31,7 +36,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#shows">Shows</a>
+            <a class="nav-link active" href="#shows">Show</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#schedule">Schedule</a>
@@ -39,9 +44,29 @@
           <li class="nav-item">
             <a class="nav-link" href="#socials">Socials</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://cpcbsa.org/programs/order-of-the-arrow/wauna-la-montay-lodge/">Wauna Online</a>
-          </li>
+        </ul>
+        <ul class="navbar-nav flex-row ms-md-auto">
+        <li class="nav-item col-lg-6 col-sm-2 col-md-auto">
+          <a class="nav-link p-1" href="https://cpcbsa.org/programs/order-of-the-arrow/wauna-la-montay-lodge/" target="_blank" rel="noopener">
+            <i class="fas fa-globe-americas"></i>
+          </a>
+        </li>
+        <li class="nav-item col-lg-6 col-sm-2 col-md-auto">
+          <a class="nav-link p-1" href="https://www.facebook.com/waunaoa" target="_blank" rel="noopener">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li class="nav-item col-lg-6 col-sm-2 col-md-auto">
+          <a class="nav-link p-1" href="https://www.instagram.com/waunaoa/" target="_blank" rel="noopener">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </li>
+        <li class="nav-item col-lg-6 col-sm-2 col-md-auto">
+          <a class="nav-link p-1" href="https://www.youtube.com/channel/UCgU9fKnudb0NELH2VZq3AQw" target="_blank" rel="noopener">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </li>
+      </ul>
       </div>
     </nav>
 
@@ -78,9 +103,9 @@
               <h5 class="card-header">Schedule</h5>
               <div class="card-body">
                 <h5 class="card-title">TBD - Business Meeting</h5>
-                <p class="card-text">This is a youth-only event held via Zoom, check your email for a link. If you have not recieved one, please contact us at <a href="mailto:support@wauna492.com">support@wauna492.com</a>.</p>
+                <p class="card-text">This is a youth-only event held via Zoom, check your email for a link. If you have not recieved one, please contact us at <a target="_blank" href="mailto:support@wauna492.com">support@wauna492.com</a>.</p>
                 <h5 class="card-title">TBD - My Chapter Rocks</h5>
-                <p class="card-text">Join us for some fun games and competitions! This event will be hosted via zoom, check your email for a link. If you have not recieved one, please contact us at <a href="mailto:support@wauna492.com">support@wauna492.com</a>.</p>
+                <p class="card-text">Join us for some fun games and competitions! This event will be hosted via zoom, check your email for a link. If you have not recieved one, please contact us at <a target="_blank" href="mailto:support@wauna492.com">support@wauna492.com</a>.</p>
                 <h5 class="card-title">6:15pm - Awards Show</h5>
                 <p class="card-text">Going live right here, join us for a night of fun and awards!</p>
               </div>
@@ -98,7 +123,7 @@
             <h5 class="card-header">Lodge Website</h5>
             <div class="card-body">
               <p class="card-text">Visit the lodge website for programs and resources.</p>
-              <a href="https://cpcbsa.org/programs/order-of-the-arrow/wauna-la-montay-lodge/" class="btn btn-primary">Website &raquo</a>
+              <a target="_blank" href="https://cpcbsa.org/programs/order-of-the-arrow/wauna-la-montay-lodge/" class="btn btn-primary">Website &raquo</a>
             </div>
           </div>
         </div>
@@ -107,7 +132,7 @@
             <h5 class="card-header">Facebook</h5>
             <div class="card-body">
               <p class="card-text">Visit us on facebook!</p>
-              <a href="https://www.facebook.com/waunaoa" class="btn btn-primary">Facebook &raquo</a>
+              <a target="_blank" href="https://www.facebook.com/waunaoa" class="btn btn-primary">Facebook &raquo</a>
             </div>
           </div>
         </div>
@@ -116,7 +141,7 @@
             <h5 class="card-header">Instagram</h5>
             <div class="card-body">
               <p class="card-text">Folow us on Instagram!</p>
-              <a href="https://www.instagram.com/waunaoa/" class="btn btn-primary">Instagram &raquo</a>
+              <a target="_blank" href="https://www.instagram.com/waunaoa/" class="btn btn-primary">Instagram &raquo</a>
             </div>
           </div>
         </div>
@@ -125,7 +150,7 @@
             <h5 class="card-header">Youtube</h5>
             <div class="card-body">
               <p class="card-text">Join us on youtube and seek out past shows and events!</p>
-              <a href="https://www.youtube.com/channel/UCgU9fKnudb0NELH2VZq3AQw" class="btn btn-primary">Youtube &raquo</a>
+              <a target="_blank" href="https://www.youtube.com/channel/UCgU9fKnudb0NELH2VZq3AQw" class="btn btn-primary">Youtube &raquo</a>
             </div>
           </div>
         </div>
@@ -142,21 +167,21 @@
         <div class="sponsor-card">
           <div class="card">
             <div class="card-body">
-              <a href="https://satis-fy-usa.com"><img src="./images/satis-fy_logo.svg" alt-text="Satis&fy" height="100px"/></a>
+              <a target="_blank" href="https://satis-fy-usa.com"><img src="./images/satis-fy_logo.svg" alt-text="Satis&fy" height="100px"/></a>
             </div>
           </div>
         </div>
         <div class="sponsor-card">
           <div class="card">
             <div class="card-body">
-              <a href="http://www.squareknotproductions.com/"><img src="./images/squareknot_logo.svg" alt-text="Square Knot Productions" height="100px"/></a>
+              <a target="_blank" href="http://www.squareknotproductions.com/"><img src="./images/squareknot_logo.svg" alt-text="Square Knot Productions" height="100px"/></a>
             </div>
           </div>
         </div>
         <div class="sponsor-card">
           <div class="card">
             <div class="card-body">
-              <a href="http://www.horine.dev/"><img src="./images/HorineDevelopment_logo.svg" alt-text="Horine Development" height="100px"/></a>
+              <a target="_blank" href="http://www.horine.dev/"><img src="./images/HorineDevelopment_logo.svg" alt-text="Horine Development" height="100px"/></a>
             </div>
           </div>
         </div>
