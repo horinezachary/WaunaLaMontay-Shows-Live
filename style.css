@@ -50,7 +50,6 @@ body {
 .page-title {
   border-radius: .5em;
   padding: 1rem .5rem .5rem;
-
 }
 
 .show-card {
@@ -86,13 +85,45 @@ body {
   flex-basis: auto;
 }
 
+
+
+
+
 .footer {
-  margin-top: 1em;
   background-color: #36454F;
   background-image: url(./images/bsa_action_folio.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   aspect-ratio: 7;
+  margin: 1em auto 0;
+}
+
+.sponsor-title {
+  text-align: center;
+  margin-bottom: 0;
+  color: #fff;
+}
+
+.sponsors {
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto 0;
+}
+
+.sponsor-card {
+  padding: 1em .5em 0;
+  display: flex;
+}
+
+.sponsor-card>div {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.sponsors>div {
+  justify-content: center;
 }
 
 .footer-bottom {
