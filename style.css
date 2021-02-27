@@ -98,9 +98,9 @@ body {
   background-image: url(./images/bsa_action_folio.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  aspect-ratio: 7;
-  margin: 1em auto 0;
+  background-position-x: center;
+  background-position-y: bottom;
+  margin: 2em auto 0;
 }
 
 .sponsor-title {
@@ -112,7 +112,7 @@ body {
 .sponsors {
   flex-flow: row wrap;
   justify-content: center;
-  margin: 0 auto 0;
+  margin: 0 auto 1em;
 }
 
 .sponsor-card {
