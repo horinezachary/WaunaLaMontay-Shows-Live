@@ -47,6 +47,10 @@ body {
   margin: 0 auto 0;
 }
 
+.card-footer>a.btn {
+  float: right;
+}
+
 .page-title {
   border-radius: .5em;
   padding: 1rem .5rem .5rem;
