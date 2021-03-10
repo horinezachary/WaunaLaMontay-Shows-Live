@@ -89,8 +89,76 @@ body {
   flex-basis: auto;
 }
 
+#awards {
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 0 auto 0;
+}
 
+.award-image {
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: 100px;
+}
 
+.award-card {
+  padding: 1em .5em 0;
+  display: flex;
+}
+
+.award-card>div {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: auto;
+}
+
+.ucol-4 {
+  columns: 4;
+}
+
+.ucol-3 {
+  columns: 3;
+}
+
+.ucol-2 {
+  columns: 2;
+}
+
+@media screen and (max-width: 992px) {
+  ul.ucol-4 {
+    columns: 3;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  ul.ucol-4 {
+    columns: 2;
+  }
+  ul.ucol-3 {
+    columns: 2;
+  }
+  ul.ucol-2 {
+    columns: 2;
+  }
+}
+
+.award-card>.card>.card-body>ul {
+  padding-inline-start: 20px;
+}
+
+.award-card>.card>.card-body>div>div>ul {
+  padding-inline-start: 20px;
+}
+
+.award-card>.card>.card-body>div>div>ul>li {
+  list-style: none;
+  text-align: center;
+}
+
+.award-card>.card>.card-body>ul>li {
+  list-style: none;
+}
 
 
 .footer {
