@@ -129,6 +129,9 @@ body {
   ul.ucol-4 {
     columns: 3;
   }
+  ul.ucol-2 {
+    columns: 1;
+  }
 }
 
 @media screen and (max-width: 720px) {
@@ -136,9 +139,6 @@ body {
     columns: 2;
   }
   ul.ucol-3 {
-    columns: 2;
-  }
-  ul.ucol-2 {
     columns: 2;
   }
 }
